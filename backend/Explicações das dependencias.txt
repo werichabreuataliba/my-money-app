@@ -1,0 +1,18 @@
+npm i --save express@4.14.0 mongoose@4.7.0 body-parser@1.15.2 lodash@4.17.4 mongoose-paginate@5.0.3 express-query-int@1.0.1 node-restful@0.2.5 pm2@2.1.5 
+
+dependencias de produção explicações
+**express@4.14.0            ==> Servidor Web
+**mongoose@4.7.0            ==> Framework de persistencia GET/PUT/POST/DELETE DM
+**body-parser@1.15.2        ==> Interpretar requisição provina de formulario ou JSON(corpo da requisição)
+**lodash@4.17.4             ==> Realizar algimas coisas simples
+**mongoose-paginate@5.0.3   ==> Paginação de consulta
+**express-query-init@1.0.1  ==> Resolver problemas na paginação da consulta
+**node-restful@0.2.5        ==> Integração do Express e do mongoose
+**pm2@2.1.5                  ==> Launcher que dispara a aplicação(Gerencia memeoria e quedas da aplicação)
+
+npm i --save-dev nodemon@1.11.0
+**nodemon@1.11.0 ==> Starta a aplicação em desenvolvimento
+
+
+o comando "nodemon" quando executado , vai procurar pelo arquivo de entrada declarado no package.json "main:src/nomedoarquivo.js"
+
